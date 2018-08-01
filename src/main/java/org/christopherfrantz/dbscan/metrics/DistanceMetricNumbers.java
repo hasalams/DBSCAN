@@ -15,4 +15,10 @@ public class DistanceMetricNumbers implements DistanceMetric<Number>{
 		return Math.abs(val1.doubleValue() - val2.doubleValue());
 	}
 
+	@Override
+	public double calculateCosineSimilarity(Map<CharSequence,Integer> map1, Map<CharSequence,Integer> map2){
+		  CosineSimilarity similarity = new CosineSimilarity();
+                  return similarity.cosineSimilarity(map1,map2);
+	}
+
 }
