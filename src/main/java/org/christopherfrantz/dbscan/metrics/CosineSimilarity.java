@@ -1,3 +1,7 @@
+package org.christopherfrantz.dbscan.metrics;
+
+import org.christopherfrantz.dbscan.DistanceMetric;
+
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
